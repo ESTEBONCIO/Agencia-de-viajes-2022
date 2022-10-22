@@ -1,0 +1,49 @@
+-- TODO - CREATE
+
+INSERT INTO registros(
+    nombres,
+    apellidos,
+    correo,
+    password
+)
+VALUES(
+    '',
+    '',
+    '',
+    ''
+)
+
+
+-- TODO - READ
+
+SELECT
+    id,
+    nombres,
+    apellidos,
+    correo,
+    password,
+    fecha
+FROM
+    registros
+
+
+-- TODO - UPDATE
+
+UPDATE
+    registros
+SET
+    nombres = '',
+    apellidos = '',
+    correo = '',
+    password = ''
+WHERE
+    id = ''
+
+
+-- TODO - DELETE
+
+DELETE
+FROM
+    registros
+WHERE
+    id = ''
